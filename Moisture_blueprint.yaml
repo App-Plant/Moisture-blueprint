@@ -6,8 +6,7 @@ blueprint:
     actions:
       name: Actions
       description: Notifications or similar to be run.
-        {{ trigger.event.data.new_state.attributes.friendly_name }} will be the name of the
-        sensor
+        {{ trigger.event.data.new_state.attributes.friendly_name }}
       selector:
         action: {}
 trigger:
